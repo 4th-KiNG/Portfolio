@@ -1,0 +1,60 @@
+.Project{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    border-radius: 16px;
+    padding: 20px;
+    gap: 10px;
+    &_Title{
+        font-size: 28px;
+        font-weight: 500;
+        text-align: center;
+        @media (max-width: 1000px) {
+            font-size: 24px;
+        }
+        @media (max-width: 750px) {
+            font-size: 20px;
+        }
+    }
+    &>p{
+        font-size: 22px;
+        min-height: 100px;
+        @media (max-width: 750px) {
+            font-size: 18px;
+            min-height: 70px;
+        }
+        @media (max-width: 500px) {
+            font-size: 14px;
+            min-height: 50px;
+        }
+    }
+    &_Ico{
+        position: relative;
+        width: 400px;
+        height: 280px;
+        @media (max-width: 1000px) {
+            width: 320px;
+            height: 220px;
+        }
+        @media (max-width: 750px) {
+            width: 270px;
+            height: 180px;
+        }
+        @media (max-width: 500px) {
+            width: 220px;
+            height: 150px;
+        }
+        &_Image{
+            width: 100%;
+            height: 100%;
+        }
+        &_Links{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            &>a{
+                width: 100%;
+            }
+        }
+    }
+}

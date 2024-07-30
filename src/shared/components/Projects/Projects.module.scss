@@ -1,0 +1,53 @@
+.Projects{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+    &>ul{
+        display: flex;
+        max-width: 100%;
+        overflow-x: scroll;
+        align-items: end;
+        height:620px;
+        gap: 20px;
+        margin-top: 20px;
+        @media (max-width: 1000px) {
+            height: 550px;
+        }
+        @media (max-width: 750px) {
+            height: 460px;
+        }
+        @media (max-width: 500px) {
+            height: 400px;
+            margin-top: 10px;
+        }
+        &::-webkit-scrollbar{
+            width: 0;
+        }
+        &>li{
+            transition: 300ms all;
+        }
+        &>li::marker{
+            content: "";
+        }
+    }
+}
+
+.Arrows{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.One{
+    position: relative;
+}
+
+.Up{
+    padding-bottom: 20px;
+    @media (max-width: 375px) {
+        padding-bottom: 10px;
+    }
+}

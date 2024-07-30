@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+
+:root{
+  min-height: 100vh;
+  background: linear-gradient(45deg, #000000, #535353);
+  background-attachment: fixed;
+  &::-webkit-scrollbar{
+    width: 0;
+  }
+}
+
+body{
+  max-width: 1440px;
+  padding: 0 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 375px){
+  body{
+    padding: 0 15px;
+  }
+  
+}

@@ -1,0 +1,40 @@
+.MainInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0px;
+    @media (max-width: 1000px) {
+        gap: 10px;
+    }
+    @media (max-width:800px) {
+        flex-wrap: wrap-reverse;
+        gap: 20px;
+    }
+    @media (max-width: 600px) {
+        padding: 20px 0;
+    }
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Me{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    @media (max-width: 1000px) {
+        width: 260px;
+        height: 260px;
+    }
+    @media (max-width: 600px) {
+        width: 200px;
+        height: 200px;
+    }
+    @media (max-width: 375px) {
+        width: 160px;
+        height: 160px;
+    }
+}

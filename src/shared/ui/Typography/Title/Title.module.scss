@@ -1,0 +1,7 @@
+.Title{
+    font-size: 36px;
+    font-weight: 600;
+    @media (max-width: 1000px) {
+        font-size: 28px;
+    }
+}

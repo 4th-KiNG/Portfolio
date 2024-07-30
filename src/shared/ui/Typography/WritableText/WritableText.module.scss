@@ -1,0 +1,23 @@
+.WritableText{
+    min-height: 160px;
+    min-width: 565px;
+    @media (max-width: 1000px) {
+        min-height: 120px;
+        min-width: 421px;
+    }
+    @media (max-width: 550px) {
+        min-width: 281px;
+        min-height: 80px;
+    }
+    &_Text{
+        font-size: 64px;
+        font-weight: 700;
+        @media (max-width: 1000px) {
+            font-size: 48px;
+        }
+        @media (max-width: 550px) {
+            font-size: 32px;
+        }
+    }
+    
+}
