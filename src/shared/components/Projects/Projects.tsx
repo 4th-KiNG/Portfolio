@@ -74,7 +74,7 @@ const Projects = () => {
         const windowCenter = document.documentElement.clientWidth / 2
         const objectcenter = allprojects[number].getBoundingClientRect().left + (allprojects[number].getBoundingClientRect().width / 2)
         setOffset(offset + (windowCenter - objectcenter))
-    }, [number])
+    }, [number, offset])
 
     return (
         <>

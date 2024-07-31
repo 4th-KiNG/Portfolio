@@ -40,8 +40,8 @@ const Sandbox = () => {
             const ball = Matter.Bodies.circle(width / 4 * getRandomInt(5), 50 * getRandomInt(4), !isPhone ? 30 : 24, {
                 render: {
                     sprite: {
-                        xScale: !isPhone ? 1 : 0.8,
-                        yScale: !isPhone ? 1 : 0.8,
+                        xScale: !isPhone ? 0.25 : 0.2,
+                        yScale: !isPhone ? 0.25 : 0.2,
                         texture: logo.src
                     }
                 }
