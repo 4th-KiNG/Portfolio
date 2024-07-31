@@ -1,13 +1,5 @@
 import js from './js.svg'
 import ts from './ts.svg'
-import redux from './redux.svg'
-import react from './react.svg'
-import nest from './nest.svg'
-import node from './node.svg'
-import scss from './scss.svg'
-import next from './next.svg'
-import express from './express.svg'
-import mobx from './mobx.svg'
 import me from './me.png'
 import github from './github.png'
 import mail from './mail.png'
@@ -27,15 +19,15 @@ import vk from './vk.svg'
 export{
     js,
     ts,
-    redux,
     me,
-    react,
-    nest,
-    node,
-    scss,
-    next,
-    express,
-    mobx,
+    // redux,
+    // react,
+    // nest,
+    // node,
+    // scss,
+    // next,
+    // express,
+    // mobx,
     github,
     mail,
     frontend,

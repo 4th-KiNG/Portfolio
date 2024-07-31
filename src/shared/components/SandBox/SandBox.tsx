@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import Matter, { Engine, Render, Bodies, World, Body } from 'matter-js';
-import { js, ts, redux, scss, react, nest, node, next, express, mobx } from '@/assets/images';
+import { js } from '@/assets/images';
 import { StaticImageData } from 'next/image';
 import { getRandomInt } from '@/lib/utils';
 const Sandbox = () => {
@@ -33,11 +33,12 @@ const Sandbox = () => {
         const ceiling = Bodies.rectangle(400, -30, 810, 60, { isStatic: true });
 
         const logos = [
-            js, ts, scss, react, nest, node, next, express, mobx, redux
+            js
         ]
 
         const balls = logos.map((logo: StaticImageData, index) => {
             const ball = Matter.Bodies.circle(width / 4 * getRandomInt(5), 50 * getRandomInt(4), 30, {
+                density: 0.04,
                 render: {
                     sprite: {
                         xScale: 1,
