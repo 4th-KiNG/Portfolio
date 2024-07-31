@@ -37,11 +37,11 @@ const Sandbox = () => {
         ]
 
         const balls = logos.map((logo: StaticImageData, index) => {
-            const ball = Matter.Bodies.circle(width / 4 * getRandomInt(5), 50 * getRandomInt(4), !isPhone ? 30 : 24, {
+            const ball = Matter.Bodies.circle(width / 4 * getRandomInt(5), 50 * getRandomInt(4), !isPhone ? 45 : 30, {
                 render: {
                     sprite: {
-                        xScale: !isPhone ? 0.25 : 0.2,
-                        yScale: !isPhone ? 0.25 : 0.2,
+                        xScale: !isPhone ? 0.36 : 0.25,
+                        yScale: !isPhone ? 0.36 : 0.25,
                         texture: logo.src
                     }
                 }
