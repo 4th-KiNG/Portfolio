@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import Matter, { Engine, Render, Bodies, World, Body } from 'matter-js';
-import { js } from '@/assets/images';
+import { js, mobx, mongo, nest, next, node, postgres, react, redux, scss, ts } from '@/assets/images';
 import { StaticImageData } from 'next/image';
 import { getRandomInt } from '@/lib/utils';
 const Sandbox = () => {
@@ -33,7 +33,17 @@ const Sandbox = () => {
         const ceiling = Bodies.rectangle(400, -30, 810, 60, { isStatic: true });
 
         const logos = [
-            js
+            js,
+            react,
+            mobx,
+            ts,
+            next,
+            scss,
+            redux,
+            nest,
+            postgres,
+            node,
+            mongo
         ]
 
         const balls = logos.map((logo: StaticImageData, index) => {
