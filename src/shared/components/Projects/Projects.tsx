@@ -63,7 +63,7 @@ const projects: IProject[] =[
 ]
 
 const Projects = () => {
-    const [number, setNumber] = useState(0)
+    const [number, setNumber] = useState(3)
     const [offset, setOffset] = useState(200)
     const allprojects = document.getElementsByClassName(styles.One)
     useEffect(() => {

@@ -1,0 +1,51 @@
+.Input{
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 6px;
+    width: 100%;
+    transition: 300ms all;
+    @media (max-width: 1000px) {
+        font-size: 20px;
+    }
+    @media (max-width: 750px) {
+        font-size: 18px;
+    }
+    @media (max-width: 500px) {
+        font-size: 16px;
+    }
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+.TextArea{
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 6px;
+    width: 100%;
+    resize: none;
+    height: 100px;
+    &::-webkit-scrollbar{
+        width: 0;
+    }
+    @media (max-width: 1000px) {
+        font-size: 20px;
+    }
+    @media (max-width: 750px) {
+        font-size: 18px;
+    }
+    @media (max-width: 500px) {
+        font-size: 16px;
+    }
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}

@@ -19,6 +19,10 @@ import doorshop from './doorshop.png'
 import watercoin from './watercoin.png'
 import planet from './planet.png'
 import arrow from './arrow.svg'
+import programist from './programist.jpg'
+import leftimg from './leftimg.webp'
+import telegram from './telegram.svg'
+import vk from './vk.svg'
 
 export{
     js,
@@ -41,5 +45,9 @@ export{
     doorshop,
     watercoin,
     planet,
-    arrow
+    arrow,
+    programist,
+    leftimg,
+    telegram,
+    vk
 }
