@@ -32,6 +32,8 @@
         position: relative;
         width: 400px;
         height: 280px;
+        object-fit: cover;
+        border-radius: 6px;
         @media (max-width: 1000px) {
             width: 320px;
             height: 220px;

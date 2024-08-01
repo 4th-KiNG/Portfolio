@@ -7,7 +7,7 @@ import { leftimg, programist } from '@/assets/images';
 const CallBack = () => {
     return (
         <>
-        <div className={styles.CallBack}>
+        <div className={styles.CallBack} id='write'>
             <Title
                 content='Write me'
             />

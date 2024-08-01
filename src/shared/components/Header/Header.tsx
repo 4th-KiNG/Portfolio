@@ -6,15 +6,15 @@ const Header = () => {
         <>
         <header className={styles.Header}>
             <LinkPath 
-                path='https://github.com/4th-KiNG'
+                path='/#write'
                 content='Write me'
             />
             <LinkPath 
-                path='https://github.com/4th-KiNG'
+                path='/#about'
                 content='About'
             />
             <LinkPath 
-                path='https://github.com/4th-KiNG'
+                path='/#projects'
                 content='Projects'
             />
         </header>

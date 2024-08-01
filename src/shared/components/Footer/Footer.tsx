@@ -9,10 +9,12 @@ const Footer = () => {
             <LinkPath
                 content='Me in Telegram'
                 image={telegram}
+                path='https://t.me/Ozoki46'
             />
             <LinkPath
                 content='Me in VK'
                 image={vk}
+                path='https://vk.com/4th_king'
             />
         </footer>
         </>

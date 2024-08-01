@@ -1,7 +1,7 @@
 "use client"
 import Image, { StaticImageData } from 'next/image';
 import styles from './Projects.module.scss'
-import { arrow, doorshop, mediagram, watercoin } from '@/assets/images';
+import { arrow, coinflip, doorshop, exton, mediagram, portfolio, watercoin } from '@/assets/images';
 import Title from '@/shared/ui/Typography/Title/Title';
 import Project from '@/shared/ui/Project/Project';
 import Text from '@/shared/ui/Typography/Text/Text';
@@ -19,47 +19,48 @@ interface IProject{
 
 const projects: IProject[] =[
     {
-        title: "MediaGram",
-        content: "Telegram Mini App for a company that launched the sale of its vouchers.",
-        image: mediagram,
-        githublink: "",
-        deploy: ""
-    },
-    {
-        title: "Door Shop",
-        content: "Business card website and product catalog for a door store with admin panel integration",
-        image: doorshop,
-        githublink: "",
-        deploy: ""
-    },
-    {
-        title: "WaterCoin",
-        content: "Telegram Mini App for clicker game with integration of a large number of mathematical calculations",
-        image: watercoin,
-        githublink: "",
-        deploy: ""
+        title: "Protfolio",
+        content: "Portfolio site for presenting my skills",
+        image: portfolio,
+        githublink: "https://github.com/4th-KiNG/Portfolio",
+        deploy: "https://alexander-pisanko-portfolio.vercel.app/"
     },
     {
         title: "MediaGram",
         content: "Telegram Mini App for a company that launched the sale of its vouchers.",
         image: mediagram,
-        githublink: "",
-        deploy: ""
+        githublink: "https://github.com/4th-KiNG/MediaGram",
+        deploy: "https://t.me/Media_Gram_Test_Bot"
     },
     {
         title: "Door Shop",
         content: "Business card website and product catalog for a door store with admin panel integration",
         image: doorshop,
-        githublink: "",
-        deploy: ""
+        githublink: "https://github.com/4th-KiNG/DoorShop",
+        deploy: "https://door-shop-wine.vercel.app/"
     },
     {
         title: "WaterCoin",
         content: "Telegram Mini App for clicker game with integration of a large number of mathematical calculations",
         image: watercoin,
-        githublink: "",
-        deploy: ""
+        githublink: "https://github.com/4th-KiNG/WaterCoin",
+        deploy: "https://t.me/WaterTest1Bot"
+    },
+    {
+        title: "CoinFlipBot",
+        content: "Telegram Mini App for playing heads and rush on tones",
+        image: coinflip,
+        githublink: "https://github.com/4th-KiNG/CoinFlipBot",
+        deploy: "https://4th-king.github.io/CoinFlipBot/"
+    },
+    {
+        title: "Exton",
+        content: "Telegram Mini App wallet with new Exton token",
+        image: exton,
+        githublink: "https://github.com/MishaZhem/NewExton",
+        deploy: "https://t.me/Exton_Bot"
     }
+    
 ]
 
 const Projects = () => {
@@ -78,7 +79,7 @@ const Projects = () => {
 
     return (
         <>
-        <div className={styles.Projects}>
+        <div className={styles.Projects} id='projects'>
             <Title
                 content='Projects'
             />

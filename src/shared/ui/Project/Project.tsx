@@ -23,9 +23,7 @@ const Project = ({
         <>
         <div className={styles.Project}>
             <span className={styles.Project_Title}>{title}</span>
-            <div className={styles.Project_Ico}>
-                <Image className={styles.Project_Ico_Image} src={image} alt="image" />
-            </div>
+            <Image className={styles.Project_Ico} src={image} alt="image" />
             <Text
                 content={content}
                 

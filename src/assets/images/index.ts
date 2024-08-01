@@ -9,15 +9,20 @@ import nest from './nest.svg'
 import postgres from './postgres.svg'
 import node from './node.svg'
 import mongo from './mongo.svg'
+
+import mediagram from './mediagram.jpg'
+import doorshop from './doorshop.jpg'
+import watercoin from './watercoin.jpg'
+import coinflip from './coinflip.jpg'
+import exton from './exton.jpg'
+import portfolio from './portfolio.jpg'
+
 import me from './me.png'
 import github from './github.png'
 import mail from './mail.png'
 import frontend from './frontend.svg'
 import backend from './backend.svg'
 import other from './other.svg'
-import mediagram from './mediagram.png'
-import doorshop from './doorshop.png'
-import watercoin from './watercoin.png'
 import planet from './planet.png'
 import arrow from './arrow.svg'
 import programist from './programist.jpg'
@@ -51,5 +56,8 @@ export{
     programist,
     leftimg,
     telegram,
-    vk
+    vk,
+    coinflip,
+    exton,
+    portfolio
 }

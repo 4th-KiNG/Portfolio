@@ -6,7 +6,7 @@ import Sandbox from "../SandBox/SandBox";
 const About = () => {
     return (
         <>
-        <div className={styles.About}>
+        <div className={styles.About} id="about">
             <Title content="About me" />
             <div className={styles.Content}>
                 <Text
