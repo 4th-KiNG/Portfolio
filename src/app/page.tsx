@@ -1,15 +1,25 @@
-import { About, CallBack, Footer, Header, MainInfo, MyStack, Projects } from "@/shared/components";
+import {
+  About,
+  CallBack,
+  Footer,
+  Header,
+  MainInfo,
+  MyStack,
+  Projects,
+} from "@/shared/components";
 
-export default function Home() {
+function Home() {
   return (
     <>
-    <Header />
-    <MainInfo />
-    <About />
-    <MyStack />
-    <Projects />
-    <CallBack />
-    <Footer />
+      <Header />
+      <MainInfo />
+      <About />
+      <MyStack />
+      <Projects />
+      <CallBack />
+      <Footer />
     </>
   );
 }
+
+export default Home;
