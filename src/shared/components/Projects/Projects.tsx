@@ -6,6 +6,7 @@ import {
   coinflip,
   doorshop,
   exton,
+  leform,
   mediagram,
   portfolio,
   watercoin,
@@ -32,6 +33,14 @@ const projects: IProject[] = [
     image: portfolio,
     githublink: "https://github.com/4th-KiNG/Portfolio",
     deploy: "https://alexander-pisanko-portfolio.vercel.app/",
+  },
+  {
+    title: "Leform",
+    content:
+      "Интернет магазин вещей. Внедрял новые микро-фичи, фиксил баги и занимался рефакторингом кода.",
+    image: leform,
+    githublink: "/",
+    deploy: "https://leform.ru/",
   },
   {
     title: "MediaGram",
